@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* input:focus{
+        border: 4px solid blue;
+       }
+       input[type=checkbox]:checked{
+        box-shadow: 0 0 0 3px red;
+       }
+       input[type=radio]:checked{
+        box-shadow: 0 0 0 3px purple;
+       } */
+       /* input[type=text]:disabled{
+        border: 4px solid purple;
+       }
+       input[type=text]:enabled{
+        border: 4px solid rgb(241, 31, 31);
+       } */
+       /* input:required{
+        border:2px solid red
+       }
+      input:in-range{
+        border: 2px solid blue;
+      }
+      input:out-of-range{
+        border: 2px solid red;
+      }
+      input:read-only{
+        border: 2px solid red;
+      }
+      input:read-write{
+        border: 2px solid red;
+      } */
+     /* input:invalid{
+        border: 2px solid blue;
+     }
+     input:valid{
+        border: 2px solid blue;
+     } */
+    input:default{
+        box-shadow: blue;
+    }
+    </style>
+</head>
+<body>
+    <label for="t">first name:</label>
+    <input type="text" id="t" required> <br><br>
+    <label for="t">disable:</label>
+    <input type="text" id="t" disabled> <br><br>
+
+    <label for="t">number:</label>
+    <input type="number" id="t" min="0" max="100" > <br><br>
+      
+    <label for="t">read only:</label>
+    <input type="text" id="t" placeholder="read only" readonly> <br><br>
+     
+    <label for="t">email:</label>
+    <input type="email" id="t" placeholder="email" > <br><br>
+
+
+    <p>message:</p>
+    <textarea name="text" id="t" cols="30" rows="10"></textarea> <br> <br>
+    <label for="t">select</label>
+
+
+    <select name="p" id="t">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select> <br> <br>
+
+  
+   <label for="">check box:</label>
+   <div class="pra">
+    <input type="checkbox" value="boarding" checked>
+    <label for="w">male</label> <br>
+   
+    <input type="checkbox" value="boarding"> 
+    <label for="w">male</label> <br>
+    <input type="checkbox" value="boarding"> 
+    <label for="w">male</label> <br> <br></div>
+
+    <label for="">checkbox inline:</label> <br> <br>
+     
+    <input type="checkbox" value="boarding">
+    <label for="w">male</label> 
+
+   
+    <input type="checkbox" value="boarding"> 
+    <label for="w">male</label> 
+    <input type="checkbox" value="boarding"> 
+    <label for="w">male</label> <br> <br>
+
+    <label for=""> radio:</label><br>
+    <input type="radio" id="e">
+    <label for="e"> option 1</label><br>
+    <input type="radio" id="e">
+    <label for="e"> option 2</label><br>
+    <input type="radio" id="e">
+    <label for="e"> option 3</label><br> <br>
+
+    <label for=""> radio inline:</label><br>
+    <input type="radio" id="e">
+    <label for="e"> option 1</label>
+    <input type="radio" id="e">
+    <label for="e"> option 2</label>
+    <input type="radio" id="e">
+    <label for="e"> option 3</label><br>
+
+    <button>submit</button> <button>cancel</button>
+
+    
+    
+
+</body>
+</html>
