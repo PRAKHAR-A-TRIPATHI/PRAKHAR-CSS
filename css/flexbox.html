@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            height: 45vh;
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: row; */
+
+            /* justify-content: center;
+            justify-content: flex-end;
+            justify-content: flex-start; */
+
+            /* align-items: center;
+            align-items: flex-end;
+            align-items: flex-start; */ 
+
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+
+            /* flex-flow: column wrap; */
+        }
+       .p{
+        border: 2px solid blue;
+        background-color: red;
+        margin: 12px;
+        width: 122px;
+        height: 122px;
+       }
+       .t{
+        order: 3;
+        flex-grow: 2;
+        align-self: center;
+       }
+       .s{
+        order:4;
+       }
+       .b{
+        order: 10;
+       }
+       .a{
+         flex-shrink: 4;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="p t" >1</div>
+        <div class="p a">2</div>
+        <div class="p b">3</div>
+        <div class="p s">4</div>
+    </div>
+</body>
+</html> 
