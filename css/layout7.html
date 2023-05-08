@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout 7</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .main {
+        display: flex;
+      }
+      #a1 {
+        height: 50vh;
+        width: 20vw;
+        background-color: aqua;
+        margin: 5px;
+      }
+      #a2 {
+        height: 50vh;
+        width: 20vw;
+        background-color: aqua;
+        margin: 5px;
+      }
+      #b1 {
+        height: 50vh;
+        width: 20vw;
+        background-color: aqua;
+        margin: 5px;
+      }
+      #b2 {
+        height: 30vh;
+        width: 20vw;
+        background-color: aqua;
+        margin: 5px;
+      }
+      #b3 {
+        height: 20vh;
+        width: 20vw;
+        background-color: aqua;
+        margin: 5px;
+      }
+      #c1 {
+        display: flex;
+      }
+      #c11 {
+        height: 80vh;
+        width: 20vw;
+        background-color: aqua;
+        margin: 5px;
+      }
+      #c12 {
+        height: 30vh;
+        width: 40vw;
+        background-color: aqua;
+        margin: 5px;
+        display: flex;
+      }
+      #c2 {
+        height: 20vh;
+        width: 38vw;
+        background-color: aqua;
+        margin: 5px;
+      }
+      #c121 {
+        height: 45vh;
+        width: 18vw;
+        background-color: aqua;
+        margin: 5px;
+        margin-top: 42%;
+      }
+      #c122 {
+        height: 68vh;
+        width: 18vw;
+        background-color: aqua;
+        margin: 5px;
+        margin-top: 42%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div id="a">
+        <div id="a1"></div>
+        <div id="a2"></div>
+      </div>
+      <div id="b">
+        <div id="b1"></div>
+        <div id="b2"></div>
+        <div id="b3"></div>
+      </div>
+      <div id="c">
+        <div id="c1">
+          <div id="c11">1</div>
+          <div id="c12">77
+            <div id="c121">2</div>
+            <div id="c122">3</div>
+          </div>
+        </div>
+        <div id="c2">4</div>
+      </div>
+    </div>
+  </body>
+</html>

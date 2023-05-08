@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 8</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        } */
+        
+        .main{
+            border: 1px solid black;
+            height: 100vh;
+            width: 100vw;
+            background-color: lightpink;
+        
+        }
+        .a{
+            background-color: lightcoral;
+            height: 20px;
+            width: 100%;
+            border: 1px solid black;
+        }
+        .main1{
+            border: 1px solid black;
+            margin: 5px;
+            height:95%;
+            width: 99%;
+            display: flex;
+        }
+        .b{
+            border: 1px solid black;
+            height: 98%;
+            width: 15%;
+            margin: 5px;
+            background-color: white;
+        }
+        .d{
+            background-color: white;
+            border: 1px solid black;
+            height: 98%;
+            width: 15%;
+            margin: 5px;
+        }
+        .c{
+            border: 1px solid black;
+            height: 76%;
+            width: 75%;
+            margin: 5px; 
+        }
+        #b1{
+            background-color: lightblue;
+            border: 1px solid black;
+            height: 30px;
+        }
+        #d1{
+            background-color: lightblue;
+            border: 1px solid black;
+            height: 30px;
+        }
+        #c11{
+            background-color: lightcoral;
+            border: 1px solid black;
+            height: 30px;
+        }
+        #c12{
+            border: 1px solid black;
+            height: 120px;
+            margin: 5px;
+            background-color: white;
+        }
+        #c121{
+            background-color: lightblue;
+            border: 1px solid black;
+            height: 30px;
+        }
+        #c122{
+            text-align: center;
+            margin-top: 50px;
+        }
+        #c2{
+            background-color: lightcoral;
+            border: 1px solid black;
+            height: 20px;
+            margin: 5px;
+        }
+        #c3{
+            display: flex;
+        }
+        #c31{
+            height: 300px;
+            width: 200px;
+            border: 1px solid black;
+            background-color: white;
+            margin: 5px;
+        }
+        #c32{
+            height: 300px;
+            width: 500px;
+            border: 1px solid black;
+            margin: 5px;
+            background-color: white;
+        }
+        #c33{
+            height: 300px;
+            width: 200px;
+            border: 1px solid black;
+            margin: 5px;
+            background-color: white;
+        }
+        #c311{
+            background-color: lightblue;
+            border: 1px solid black;
+            height: 30px;
+        }
+        #c312{
+            text-align: center;
+            margin-top: 50px;
+            background-color: white
+        }
+       #p{
+        height: 140px;
+            width: 99%;
+            border: 1px solid black;
+            margin: 5px;
+            background-color: white;
+       }
+       #p1{
+        background-color: lightblue;
+            border: 1px solid black;
+            height: 30px;
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+         <div class="a">panel layout-1</div>
+
+
+         <div class="main1">
+            <div class="b">
+                <div id="b1">panel card 1</div>
+            </div>
+            <div class="c">
+                <div id="c1">
+                    <div id="c11">panel layout 2 top to bottom</div>
+                    <div id="c12">
+                         <div id="c121">panel card 3</div>
+                         <div id="c122">(mastheade)</div>
+                    </div>
+                    <div id="c2">panel layout 3</div>
+
+                    <div id="c3">
+                        <div id="c31">
+                            <div id="c311">panel card 4</div>
+                            <div id="c312">(left navigation)</div>
+                        </div>
+                        <div id="c32">
+                            <div id="c311">panel card 5</div>
+                            <div id="c312">(main navigation)</div>
+                        </div>
+                        <div id="c33">
+                            <div id="c311">panel card 5</div>
+                            <div id="c312">(main navigation)</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="p">
+                   <div id="p1">panel cars 7</div>
+                </div>
+            </div>
+           
+            <div class="d">
+                <div id="d1">panel card 2</div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
