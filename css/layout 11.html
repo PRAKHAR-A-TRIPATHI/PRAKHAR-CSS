@@ -1,42 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>layout 11</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            height: 100vh;
-            width: 100vw;
-        }
-        .a{
-            width: 20%;
-            height: 100%;
-            
-        }
-        #a1{
-            background-color: blue;
-             height: 50%;
-            width: 100%;  
-            margin: 0 0 2px;
-        }
-        #a2{
-            background-color: orangered;
-             height: 50%;
-            width: 100%;  
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+      }
+      .main {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+      }
+      .a {
+        width: 20%;
+        height: 100%;
+      }
+      #a1 {
+        background-color: blue;
+        height: 50%;
+        width: 100%;
+      }
+      #a2 {
+        background-color: orangered;
+        height: 50%;
+        width: 100%;
+      }
+      .b {
+        width: 15%;
+        height: 100%;
+      }
+      #b1 {
+        height: 33.33%;
+        width: 100%;
+      }
+      .c {
+        width: 15%;
+        height: 100%;
+      }
+      #c1 {
+        height: 33.33%;
+        width: 100%;
+      }
+      .d {
+        width: 50%;
+        height: 100%;
+      }
+      #d1 {
+        display: flex;
+        width: 100%;
+        height: 32%;
+      }
+      #d11 {
+        width: 100%;
+      }
+      #p {
+        width: 100%;
+        height: 68%;
+        display: flex;
+      }
+      #d2 {
+        width: 30%;
+        height: 100%;
+      }
+      #d21 {
+        height: 50%;
+      }
+      #d3 {
+        width: 100%;
+        height: 35%;
+        display: flex;
+      }
+      #d31 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 0, 85);
+      }
+      #d4 {
+        width: 50%;
+        height: 35%;
+      }
     </style>
-</head>
-<body>
-    <div class="a">
+  </head>
+  <body>
+    <div class="main">
+      <div class="a">
         <div id="a1"></div>
         <div id="a2"></div>
+      </div>
+      <div class="b">
+        <div id="b1" style="background-color: grey"></div>
+        <div id="b1" style="background-color: yellow"></div>
+        <div id="b1" style="background-color: lightblue"></div>
+      </div>
+      <div class="c">
+        <div id="c1" style="background-color: green; height: 31%"></div>
+        <div id="c1" style="background-color: darkblue"></div>
+        <div id="c1" style="background-color: brown; height: 35.5%"></div>
+      </div>
+      <div class="d">
+        <div id="d1">
+          <div id="d11" style="background-color: darkgray"></div>
+          <div id="d11" style="background-color: darkgoldenrod"></div>
+          <div id="d11" style="background-color: rgb(24, 2, 66)"></div>
+        </div>
+        <div id="p">
+          <div id="d2">
+            <div id="d21" style="background-color: darkgreen"></div>
+            <div id="d21" style="background-color: skyblue"></div>
+          </div>
+          <div id="d3">
+            <div id="d31" style="background-color: salmon"></div>
+            <div id="d31" style="background-color: lightgray"></div>
+          </div>
+        </div>
+        <div id="d4">
+          <div id="d31" style="background-color: salmon"></div>
+          <div id="d31" style="background-color: lightgray"></div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

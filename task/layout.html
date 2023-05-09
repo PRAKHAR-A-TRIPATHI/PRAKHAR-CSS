@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+      }
+      .main {
+        height: 91vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(253, 230, 191);
+      }
+      .img1 {
+        margin: 5px;
+        background-color: rgb(247, 173, 234);
+        border: 5px solid blue;
+      }
+
+      p {
+        /* margin: 10px; */
+        border: 2px solid blue;
+      }
+      .nav {
+        height: 9%;
+        background-color: lightpink;
+        display: flex;
+      }
+      li {
+        
+        display: inline;
+      }
+      li a {
+        color: white;
+        text-align: right;
+        padding: 14px  16px;
+        text-decoration: none;
+        margin: 5px;
+      }
+      li a:hover{
+        background-color: rgb(209, 56, 81);
+      }
+      #img{
+        height: 50px;
+        margin-right: 700px;
+      }
+      button{
+        background-color: pink;
+        height: 30px;
+        width: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <ul>
+        <li><img id="img" src="https://mypham.net/uploads/brand/avatar/140/avon_logo.png" alt=""></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">Fetures</a></li>
+        <li><a href="">logobook</a></li>
+        <li><a href="">pages</a></li>
+        <!-- <li><a href="">login</a></li> -->
+        <li><button>login</button></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <div class="img1">
+        <img src="OIP (1).jpeg" alt="" />
+        <p>
+          JACKET <br />
+          $800
+        </p>
+      </div>
+      <div class="img1">
+        <img src="OIP (4).jpeg" alt="" /> <br />
+        <p>
+          BLACK JACKET <br />
+          $900
+        </p>
+      </div>
+      <div class="img1">
+        <img src="OIP (3).jpeg" alt="" /> <br />
+        <p>
+          BLUE JACKET <br />
+          $1100
+        </p>
+      </div>
+      <div class="img1">
+        <img src="download.jpeg" alt="" /> <br />
+        <p>
+          CHECK BLACK JACKET <br />
+          $800
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

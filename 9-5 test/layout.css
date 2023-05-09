@@ -1,0 +1,40 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    height: 70%;
+    width: 70%;
+    display: flex;
+}
+.b{
+    background-color: brown;
+    width: 30%;
+    height: 100%;
+}
+.c{
+    height: 100%;
+    width: 30%;
+}
+#c1{
+    background-color: aqua;
+    height: 50%;
+}
+#c2{
+    background-color: rgb(48, 14, 199);
+    height: 50%;
+}
+.d{
+    height: 100%;
+    width: 30%;
+}
+#d1{
+    background-color: rgb(233, 35, 183);
+    height: 50%;
+}
+#d2{
+    background-color: rgb(221, 140, 18);
+    height: 50%;
+}
