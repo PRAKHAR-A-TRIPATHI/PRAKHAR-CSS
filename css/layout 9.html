@@ -1,55 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>layout 9</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            height: 100vh;
-            width: 100vw;
-        }
-        .grey{
-            height: 5%;
-            background-color: grey;
-        }
-        .color{
-            display: flex;
-            height: 95%;
-        }
-        .red{
-            height: 100%;
-            width: 20%;
-            background-color: red;
-        }
-        #pup1{
-           height: 50%;
-           width: 20%;
-           background-color: purple;
-        }
-        #pup2{
-           height: 50%;
-
-           background-color: rgb(63, 5, 63);
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+      }
+      .grey {
+        height: 5%;
+        background-color: grey;
+      }
+      .color {
+        display: flex;
+        height: 95%;
+      }
+      .red {
+        height: 100%;
+        width: 20%;
+        background-color: red;
+      }
+      .pup {
+        width: 20%;
+      }
+      #pup1 {
+        height: 50%;
+        width: 100%;
+        background-color: purple;
+      }
+      #pup2 {
+        height: 50%;
+        width: 100%;
+        background-color: rgb(63, 5, 63);
+      }
+      .blue {
+        height: 100%;
+        width: 20%;
+      }
+      #blue1 {
+        background-color: darkblue;
+        height: 34%;
+      }
+      #blue2 {
+        background-color: rgb(7, 7, 78);
+        height: 34%;
+      }
+      #blue3 {
+        background-color: rgb(2, 2, 39);
+        height: 32%;
+      }
+      .darkblue {
+        width: 40%;
+        height: 100%;
+      }
+      #darkblue1 {
+        display: flex;
+        height: 50%;
+      }
+      #darkblue11 {
+        /* height: 50%; */
+        width: 50%;
+        background-color: rgb(33, 33, 235);
+      }
+      #darkblue111 {
+        width: 50%;
+        height: 50%;
+      }
+      #darkblue1111 {
+        background-color: rgb(0, 0, 24);
+        height: 100%;
+        width: 100%;
+      }
+      #darkblue1112 {
+        background-color: rgb(112, 112, 240);
+        height: 100%;
+        width: 100%;
+      }
+      #darkblue2{
+        display: flex;
+        height: 25%;
+      }
+      #darkblue21 {
+        height: 100%;
+        width: 40%;
+        background-color: aqua;
+      }
+      #darkblue22 {
+        height: 100%;
+        width: 60%;
+      }
+      #darkblue221 {
+        height: 50%;
+        width: 100%;
+        background-color: rgb(3, 51, 51);
+      }
+      #darkblue222 {
+        height: 50%;
+        width: 100%;
+        background-color: rgb(184, 238, 238);
+      }
+      #darkblue3{
+        display: flex;
+        height: 25%;
+      }
+      #darkblue31{
+        background-color: blueviolet;
+        height: 100%;
+        width: 33.33%;
+      }
     </style>
-</head>
-<body>
-    <div class="grey">europe country by the numbers of automatiuon strartupo</div>
-    <div class="color">
-        <div class="red">uk</div>
-        <div class="pup">
-            <div id="pup1">germany</div>
-            <div id="pup2">isreal</div>
-        </div>
-        <div class="red"></div>
-        <div class="red"></div>
+  </head>
+  <body>
+    <div class="grey">
+      europe country by the numbers of automatiuon strartupo
     </div>
-</body>
+    <div class="color">
+      <div class="red">uk</div>
+      <div class="pup">
+        <div id="pup1">germany</div>
+        <div id="pup2">isreal</div>
+      </div>
+      <div class="blue">
+        <div id="blue1">others</div>
+        <div id="blue2">firance</div>
+        <div id="blue3">spain</div>
+      </div>
+      <div class="darkblue">
+        <div id="darkblue1">
+          <div id="darkblue11">swedin</div>
+          <div id="darkblue111">
+            <div id="darkblue1111">swizelend</div>
+            <div id="darkblue1112">finiand</div>
+          </div>
+        </div>
+        <div id="darkblue2">
+          <div id="darkblue21">russia</div>
+          <div id="darkblue22">
+            <div id="darkblue221">irelend</div>
+            <div id="darkblue222">neherland</div>
+          </div>
+        </div>
+        <div id="darkblue3">
+            <div id="darkblue31">demark</div>
+            <div id="darkblue31">belgium</div>
+            <div id="darkblue31">ukarain</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

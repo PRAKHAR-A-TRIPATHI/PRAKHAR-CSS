@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 10</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            /* background-color: aqua; */
+        }
+        .main{
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+        .a{
+            height:100%;
+            width: 25%;
+        }
+        #a1{
+            height: 32%;
+            width: 100%;
+            background-color: blue;
+        }
+        #a2{
+            height: 32%;
+            width: 100%;
+            background-color: blue;
+            margin:2px 2px 2px 0px;
+        }
+        #a3{
+            height: 33%;
+            width: 100%;
+            background-color: blue;
+        }
+        .b{
+            height: 100%;
+            width: 20%;
+        }
+        #b1{
+            height: 25%;
+            width: 100%;
+            background-color: aqua;
+            margin: 0 2px 0 2px;
+        }
+        #b2{
+            height: 22%;
+            width: 100%;
+            background-color: aqua;
+            margin: 2px 2px 2px 2px;
+        }
+        #b3{
+            height: 24%;
+            width: 100%;
+            background-color: aqua;
+            margin: 2px 2px 2px 2px;
+        }
+        #b4{
+            height: 25%;
+            width: 100%;
+            background-color: aqua;
+            margin: 2px 2px 0px 2px;
+        }
+        .c{
+            height: 100%;
+            width: 25%;
+        }
+        #c1{
+            display: flex;
+            height: 50%;
+            width: 100%;
+        }
+        #c11{
+            width: 50%;
+            height: 100%;
+            background-color: blueviolet;
+            margin: 4px;
+           
+        }
+        #c12{
+            width: 50%;
+            height: 100%;
+            background-color: blueviolet;
+            margin: 4px;
+          
+        }
+        #c2{
+            width: 95%;
+            height: 22%;
+            background-color: blueviolet;
+            margin: 8px;
+          
+        }
+        .d{
+            width: 15%;
+            height: 100%;
+        }
+        #d1{
+            height: 49%;
+            width: 100%;
+            background-color: crimson;
+            margin: 5px;
+        }
+        .e{
+            width: 15%;
+            height: 100%;
+        }
+        #e1{
+            height: 48%;
+            width: 92%;
+            background-color: darkorange;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="a">
+           <div id="a1"></div>
+           <div id="a2"></div>
+           <div id="a3"></div>
+        </div>
+        <div class="b">
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b3"></div>
+            <div id="b4"></div>
+        </div>
+        <div class="c">
+            <div id="c1">
+                <div id="c11"></div>
+                <div id="c12"></div>
+            </div>
+            <div id="c2"></div>
+            <div id="c2"></div>
+        </div>
+        <div class="d">
+            <div id="d1"></div>
+            <div id="d1"></div>
+        </div>
+        <div class="e">
+            <div id="e1"></div>
+            <div id="e1"></div>
+        </div>
+    </div>
+</body>
+</html>
