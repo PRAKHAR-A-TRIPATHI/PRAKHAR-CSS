@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+            background-color: purple;
+            position: relative;
+        }
+        .container{
+            position: absolute;
+            border: 5px solid white;
+            height: 25%;
+            width: 30%;
+            top:30%;
+            left: 30%;
+            transition: 2s;
+            background-position: right;
+            
+        }
+        .row{
+            position: absolute;
+            height: 100%;
+            width: 10%;
+            transition: 3s;
+            top:0px;
+
+
+        }
+        .row:hover{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: red;
+            top:0px;
+
+        }
+        P{ 
+            position: absolute;
+            color: white;
+            font-size: 70px;
+            top: 25%;
+            left: 25%;
+            transition: 5s;
+            z-index: 1;
+        }
+        p:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+        <p>SLIDE</p>
+        <div class="row"></div>   
+        </div>
+    </div>
+</body>
+</html>
