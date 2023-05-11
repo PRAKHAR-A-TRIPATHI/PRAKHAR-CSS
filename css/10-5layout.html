@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      .main {
+        height: 100vh;
+        width: 100vw;
+        /* background-color: brown; */
+      }
+      .container1 {
+        height: 50%;
+        display: flex;
+      }
+      .container2 {
+        height: 50%;
+        display: flex;
+      }
+      .class1 {
+        width: 25%;
+      }
+      .class2 {
+        width: 25%;
+      }
+      .class3{
+        position: fixed;
+        width: 27%;
+        height: 50%;
+        border-radius: 50%;
+        right: 62%;
+      }
+      .class4{
+        position: fixed;
+        width: 26%;
+        height: 50%;
+        border-radius: 50%;
+        right: 12%;
+      }
+      .class5{
+        position: fixed;
+        width: 26%;
+        height: 50%;
+        border-radius: 50%;
+        right: 37%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container1">
+        <div class="class1" style="background-color: aliceblue"></div>
+        <div class="class1" style="background-color: darkgray"></div>
+        <div class="class1" style="background-color: brown"></div>
+        <div class="class1" style="background-color: red"></div>
+        <div class="class3" style="background-color: rgb(82, 1, 1);"></div>
+        <div class="class4" style="background-color: blue;"></div>
+      </div>
+      <div class="container2">
+        <div class="class2" style="background-color: red"></div>
+        <div class="class2" style="background-color: brown"></div>
+        <div class="class2" style="background-color: darkgray"></div>
+        <div class="class2" style="background-color: aliceblue"></div>
+        <div class="class5" style="background-color: aqua;"></div>
+      </div> 
+    </div>
+    <!-- <div class="class3" style="background-color: darkred;"></div> -->
+  </body>
+</html>
