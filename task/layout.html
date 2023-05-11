@@ -13,99 +13,120 @@
       }
       body {
         height: 100vh;
-      }
-      .main {
-        height: 91vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 100vw;
         background-color: rgb(253, 230, 191);
       }
+      .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .main {
+        width: 90%;
+        height: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+      }
       .img1 {
+        height: 60%;
+        width: 20%;
         margin: 5px;
         background-color: rgb(247, 173, 234);
         border: 5px solid blue;
       }
 
       p {
-        /* margin: 10px; */
+        margin-top: 125%;
         border: 2px solid blue;
+
+      }
+      header{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 10%;
       }
       .nav {
-        height: 9%;
         background-color: lightpink;
+        width: 80%;
+        height: 70%;
         display: flex;
+        justify-content: center;
+        align-items: center;
       }
       li {
-        
         display: inline;
       }
       li a {
         color: white;
         text-align: right;
-        padding: 14px  16px;
+        padding: 14px 16px;
         text-decoration: none;
         margin: 5px;
       }
-      li a:hover{
+      li a:hover {
         background-color: rgb(209, 56, 81);
       }
-      #img{
+      #img {
         height: 50px;
         margin-right: 00px;
       }
-      button{
+      button {
         background-color: pink;
-        height: 30px;
+        height: 50px;
         width: 90px;
       }
     </style>
   </head>
   <body>
+    <div class="container">
     <header>
-      
+      <img
+      id="img"
+      src="https://mypham.net/uploads/brand/avatar/140/avon_logo.png"
+      alt=""
+    />
+      <nav class="nav">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Fetures</a></li>
+          <li><a href="">logobook</a></li>
+          <li><a href="">pages</a></li>
+        </ul>
+      </nav>
+      <li><button>login</button></li>
     </header>
-    <nav class="nav">
-      <ul>
-        <li><img id="img" src="https://mypham.net/uploads/brand/avatar/140/avon_logo.png" alt=""></li>
-        <li><a href="">Home</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="">Fetures</a></li>
-        <li><a href="">logobook</a></li>
-        <li><a href="">pages</a></li>
-        <!-- <li><a href="">login</a></li> -->
-        <li><button>login</button></li>
-      </ul>
-    </nav>
     <div class="main">
       <div class="img1">
-        <img src="OIP (1).jpeg" alt="" />
         <p>
           JACKET <br />
           $800
         </p>
       </div>
       <div class="img1">
-        <img src="OIP (4).jpeg" alt="" /> <br />
         <p>
           BLACK JACKET <br />
           $900
         </p>
       </div>
       <div class="img1">
-        <img src="OIP (3).jpeg" alt="" /> <br />
         <p>
           BLUE JACKET <br />
           $1100
         </p>
       </div>
       <div class="img1">
-        <img src="download.jpeg" alt="" /> <br />
         <p>
           CHECK BLACK JACKET <br />
           $800
         </p>
       </div>
     </div>
+  </div>
   </body>
 </html>
