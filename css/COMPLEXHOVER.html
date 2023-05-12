@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       body{
+        height: 100vh;
+        width: 100vw;
+        background-color: fuchsia;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       button{
+        position: relative;
+        padding: 100px 200px;
+        background-color: #631c80;
+       }
+       button::after{
+        content: "";
+        position: absolute;
+        border-top: 5px solid rgb(252, 248, 248);
+        /* background-color: blue; */
+        border-radius: 10%;
+        height: 100%;
+        width: 100%;
+        top:0;
+        right: 0%;
+        transition: 5s;
+       }
+       button::after{
+        content: "";
+        position: absolute;
+        border-bottom: 5px solid rgb(252, 248, 248);
+        /* background-color: blue; */
+        height: 100%;
+        width: 0%;
+        top:0;
+        right: 0%;
+        transition: 1s;
+       }
+       button:hover::after{
+           width: 100%;
+       }
+       button::before{
+       content: "";
+       position: absolute;
+       border-right: 5px solid white;
+       border-radius: 10%;
+       right: 0;
+       top: 0;
+       height: 0%;
+       width: 100%;
+       /* bottom:100%; */
+       transition: 3s;
+       }
+       button::before{
+       content: "";
+       position: absolute;
+       border-left: 5px solid white;
+       right: 0%;
+       top: 0;
+       height: 0%;
+       width: 100%;
+       transition: 3s;
+       }
+       button:hover::before{
+        height: 100%;
+       }
+    </style>
+</head>
+<body>
+    <button>HOVER ME</button>
+</body>
+</html>
