@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout 12</title>
+    <style>
+      * {
+        margin: 5px;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 90vh;
+        width: 97vw;
+      }
+      .main{
+        height: 100%;
+        width: 100%;
+        display: flex;
+      }
+      .container1{
+        width:40%;
+        height: 100%;
+        background-color: #da0909;
+      }
+      .container2{
+        width:60%;
+        height: 100%;
+        /* background-color: #09da13; */
+      }
+      .container3{
+        height: 20%;
+        background-color: green;
+      }
+      .container4{
+        height: 80%;
+        display: flex;
+      }
+      .container31{
+        width: 50%;
+        height: 100%;
+        background-color: #da0983;
+      }
+      .container32{
+        width: 50%;
+        height: 100%;
+        /* background-color: #da0983; */
+      }
+      .container311{
+        height: 50%;
+        background-color: blue;
+      }
+      .container312{
+        height: 50%;
+        background-color: rgb(21, 156, 138);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container1"></div>
+      <div class="container2">
+        <div class="container3"></div>
+        <div class="container4">
+          <div class="container31"></div>
+          <div class="container32">
+            <div class="container311"></div>
+            <div class="container312"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
