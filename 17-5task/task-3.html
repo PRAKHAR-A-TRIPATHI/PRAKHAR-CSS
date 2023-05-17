@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-3</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .main{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            text-align: center;
+            background-color: rgb(226, 225, 225);
+        }
+        .header{
+            padding: 20px;
+        }
+        .content{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            width: 33%;
+            position: relative;
+
+        }
+        .box1{
+            /* border: 1px solid black; */
+            background-color: white;
+            border-radius: 5px;
+            position: absolute;
+            height: 70%;
+            width: 80%;
+            top:150px;
+            right: 30px;
+            
+        }
+        button{
+            position: absolute;
+            top: 15px;
+            left: 0px;
+            border:none;
+            background-color: darkblue;
+            color: white;
+            height: 30px;
+            width: 70px;
+        }
+        h3{
+            color: darkblue;
+            text-align: center;
+        }
+        h5{
+            color: red;
+            text-align: left;
+            /* font-size: 20px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+        <h1>Latest News</h1>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus dicta ratione amet neque quos a. <br> Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="img">
+                    <img src="1.jpg" alt="">
+                </div>
+                <button>04 FEB</button>
+                <div class="box1">
+                    <h3>Prevent 75% of visitors from google analytics</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, fuga!</p>
+                    <h5>Read More -></h5>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="1.jpg" alt="">
+                </div>
+                <button>04 FEB</button>
+                <div class="box1">
+                    <h3>Prevent 75% of visitors from google analytics</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, fuga!</p>
+                    <h5>Read More -></h5>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="1.jpg" alt="">
+                </div>
+                <button>04 FEB</button>
+                <div class="box1">
+                    <h3>Prevent 75% of visitors from google analytics</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, fuga!</p>
+                    <h5>Read More -></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
