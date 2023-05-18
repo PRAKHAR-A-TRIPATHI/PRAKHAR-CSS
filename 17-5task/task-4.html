@@ -9,44 +9,122 @@
         *{
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         .main{
             height: 100vh;
             width: 100vw;
             display: flex;
             flex-direction: column;
-            text-align: center;
-            /* justify-content: center; */
             align-items: center;
+            background-color: rgb(243, 233, 233);
         }
         .hover{
             display: flex;
             flex-wrap: wrap;
             padding: 20px;
+            justify-content: center;
         }
          .box{
             height: 50%;
-            width: 50%;
+            width: 40%;
             display: flex;
-            border: 1px solid black;
+            background-color: white;
+            box-shadow: 0 0 5px;
+            margin: 10px;
+            position: relative;
+           
+         }
+         .circle{
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgb(24, 23, 23);
+            color: white;
+            height: 50px;
+            width: 50px;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            font-size: 20px;
+            opacity: 0.8;
+            z-index: 1;
          }
          img{
             height: 100%;
             width: 100%;
          }
+         h2{
+            color: blue;
+         }
+         h5{
+            color: blue;
+         }
          .h1{
-            height: ;
             width: 50%;
+            position: relative;
+         }
+         .h1::after{
+            content: " ";
+            position: absolute;
+            width: 90%;
+            height: 90%;
+            top: 5%;
+            bottom: 0;
+            left: 5%;
+            z-index: -1;
+            transition: 1s;
+            transform: scale(0);
+         }
+         .h1:hover::after{
+             width: 90%;
+             background-color: green;
+             z-index: 0;
+             transform: scale(1);
+
+         }
+         .box:hover>.h1::after{
+            width: 90%;
+             background-color: green;
+             z-index: 0;
+             opacity: 0.7;
+             transform: scale(1)
          }
          .h{
-            height: ;
             width: 50%;
+            padding: 15px;
+         }
+         .r{
+                padding: 15px 0;
+         }
+         #pragr{
+                 padding: 7px 0;
+         }
+         .a{
+            display:flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            border-top: 1px solid gray;
+         } 
+         .box:hover> .h h2{
+            color: green;
+         }
+         .box:hover>.h .a h5{
+            color: green;
+         }
+         .box:hover>.h .r{
+            color: green;
+            text-decoration: underline;
+         }
+         .box:hover>.h1 .circle{
+            background-color: white;
+            color: black;
+            opacity: 1;
          }
     </style>
 </head>
 <body>
     <div class="main">
-        <div class="header">
+        <div class="header" style="text-align: center;">
             <h1>Latesest News</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, dolore! <br>
             Lorem ipsum dolor sit amet.</p>
@@ -54,42 +132,69 @@
         <div class="hover">
             <div class="box">
                 <div class="h1">
+                    <div class="circle">14 <br>sep </div>
                     <img src="david-kovalenko-G85VuTpw6jg-unsplash.jpg" alt="">
                 </div>
                 <div class="h">
                     <h2>Stander Blog Past</h2>
-                    <p> ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus totam magni provident qui sint enim minima cumque, accusamus eligendi fugit, quibusdam, temporibus earum? Debitis, totam porro? Obcaecati molestiae numquam est!</p>
-                    <h5>01 comment</h5>
+                    <p  id="pragr"> ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus totam magni provident qui sint enim minima cumque, </p>
+                    <div class="r">READ MORE</div>
+                    <div class="a">
+                        <p>by:Admin</p>
+                        <hr>    
+                        <h5>07 Comments</h5>
+                    </div>
                 </div>
             </div>
-            <div class="box">
+          <div class="box">
+                
                 <div class="h1">
+                    <div class="circle">14 <br>sep </div>
                     <img src="david-kovalenko-G85VuTpw6jg-unsplash.jpg" alt="">
                 </div>
                 <div class="h">
                     <h2>Stander Blog Past</h2>
-                    <p> ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus totam magni provident qui sint enim minima cumque, accusamus eligendi fugit, quibusdam, temporibus earum? Debitis, totam porro? Obcaecati molestiae numquam est!</p>
-                    <h5>01 comment</h5>
+                    <p  id="pragr"> ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus totam magni provident qui sint enim minima cumque, </p>
+                    <div class="r">READ MORE</div>
+                    <div class="a">
+                        <p>by:Admin</p>
+                        <hr>    
+                        <h5>07 Comments</h5>
+                    </div>
                 </div>
             </div>
-            <div class="box">
+           <div class="box">
+               
                 <div class="h1">
+                    <div class="circle">14 <br>sep </div>
                     <img src="david-kovalenko-G85VuTpw6jg-unsplash.jpg" alt="">
                 </div>
                 <div class="h">
                     <h2>Stander Blog Past</h2>
-                    <p> ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus totam magni provident qui sint enim minima cumque, accusamus eligendi fugit, quibusdam, temporibus earum? Debitis, totam porro? Obcaecati molestiae numquam est!</p>
-                    <h5>01 comment</h5>
+                    <p  id="pragr"> ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus totam magni provident qui sint enim minima cumque, </p>
+                    <div class="r">READ MORE</div>
+                    <div class="a">
+                        <p>by:Admin</p>
+                        <hr>    
+                        <h5>07 Comments</h5>
+                    </div>
                 </div>
             </div>
-            <div class="box">
+           <div class="box">
+               
                 <div class="h1">
+                    <div class="circle">14 <br>sep </div>
                     <img src="david-kovalenko-G85VuTpw6jg-unsplash.jpg" alt="">
                 </div>
                 <div class="h">
                     <h2>Stander Blog Past</h2>
-                    <p> ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus totam magni provident qui sint enim minima cumque, accusamus eligendi fugit, quibusdam, temporibus earum? Debitis, totam porro? Obcaecati molestiae numquam est!</p>
-                    <h5>01 comment</h5>
+                    <p  id="pragr"> ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus totam magni provident qui sint enim minima cumque, </p>
+                    <div class="r">READ MORE</div>
+                    <div class="a">
+                        <p>by:Admin</p>
+                        <hr>    
+                        <h5>07 Comments</h5>
+                    </div>
                 </div>
             </div>
         </div>
