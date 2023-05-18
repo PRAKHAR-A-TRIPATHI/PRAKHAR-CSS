@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .img{
+            height: 50%;
+            width: 20%;
+            border: 1px solid black;
+            position: relative;
+        }
+        img{
+            height: 100%;
+            max-width: 100%;
+            object-fit: cover;
+        }
+        .details{
+            position: absolute;
+            bottom: 0;
+            padding: 10px;
+        }
+        .tag{
+            position: absolute;
+            top: 5%;
+            right: 10%;
+            background-color: gray;
+            border-radius: 50%;
+            height: 50px;
+            width: 70px;
+            text-align: center;
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .off{
+            position: absolute;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            top: 5%;
+            right: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img">
+            <img src="shoes.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+            <div class="tag">Sold Out</div>
+        </div>
+        <div class="img">
+            <img src="OIP.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="download.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="shoes.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="OIP.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="download.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="shoes.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="OIP.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="download.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p>$ 24.99</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="shoes.jpeg" alt="">
+            <div class="details">
+                <h6>Adidas Copa Primkenit Sneakers</h6>
+                <p> <del>$ 24.99 </del> <span style="color: red;">$ 20</span></p>
+            </div>
+            <div class="off">-15%</div>
+        </div>
+    </div>
+</body>
+</html>
