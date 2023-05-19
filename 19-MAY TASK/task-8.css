@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* height: 100vh;
+    width: 100vw; */
+  }
+  header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+    width: 80%;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  .logo {
+    display: flex;
+  }
+  li {
+    padding: 0 15px;
+  }
+  svg {
+    margin: 5px;
+  }
+  .cont1 {
+    display: flex;
+    background: rgba(242, 242, 242, 0.65);
+    width: 100%;
+    justify-content: center;
+    padding: 30px;
+  }
+  .box1 {
+    padding: 0 40px 0 0;
+  }
+  .box2 {
+    display: flex;
+    font-size: 48px;
+    /* border: 1px solid black; */
+  }
+  .i {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+  }
+  .text {
+    width: 50%;
+    height: 100%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  span {
+    color: red;
+  }
+  h1 {
+    padding: 20px 0;
+  }
+  .artical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  article {
+    width: 70%;
+  }
+  .cont2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .video{
+    display: flex;
+    width: 70%;
+    /* border: 1px solid black; */
+  }
+  .box4{
+    /* border: 1px solid black; */
+    width: 50%;
+    position: relative;
+    padding: 10px;
+    /* border-radius: 10px; */
+  }
+  .v{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+  }
+  .box5{
+    /* border: 1px solid black; */
+    width: 50%;
+  }
+  .b5{
+    display: flex;
+    width: 70%;
+    padding: 20px;
+  }
+ .cont3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+
+ }
+ .box7{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .red1{
+    width: 50%;
+    color: white;
+    padding: 10px;
+ }
+ .cont4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .map{
+    width: 70%;
+    display: flex;
+ }
+ .m1{
+    width: 50% ;
+ }
+ .m{
+    display: flex;
+    padding: 20px 20px;
+ }
