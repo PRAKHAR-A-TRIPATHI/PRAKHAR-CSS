@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25); 
+
+}
+.logo{
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+select{
+    border: none;
+}
+li{
+    padding: 10px 15px;
+}
+.svg img{
+    margin:0 5px;
+}
+.lable{
+    display: none;
+}
+.cont1 {
+    display: flex;
+    background: rgba(242, 242, 242, 0.65);
+    width: 100%;
+    justify-content: center;
+    padding: 30px;
+  }
+  .box1 {
+    /* text-align: center;  */
+    padding: 0 40px 0 0;
+    
+  }
+  .box2 {
+    display: flex;
+    font-size: 48px;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+  }
+  .cont1 img{
+       /* width: 100%; */
+  }
+  .artical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  article {
+    width: 90%;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    padding: 10px 0;
+  }
+  span {
+    color: red;
+  }
+  .cont2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    /* border: 1px solid black; */
+  }
+  .video{
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    /* border: 1px solid black; */
+  }
+  .box4{
+    width: 50%;
+  }
+  .box5{
+    width: 50%;
+    padding: 0 20px;
+  }
+  .b5{
+    display: flex;
+    width: 70%;
+    padding: 20px;
+  }
+  .box5 h1{
+    padding: 20px 0;
+  }
+  .h6 h4{
+      padding: 10px;
+  }
+  .cont3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+  }
+  .box7{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+ }
+ .red1{
+    width: 50%;
+    padding: 10px;
+ }
+ .red2{
+    width: 50%;
+    padding: 10px;
+ }
+ .ifrme{
+    height: 100%;
+ }
+ #pragraph{
+    width: 80%;
+    padding: 10px 0;
+ }
+ .red1 h1{
+    padding: 20px 0;
+ }
+ .cont4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .mapflex{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+ }
+ .map1{
+    width: 50%;
+    padding: 10px;
+ }
+ .m{
+    display: flex;
+    padding: 30px 10px;
+ }
+ .contact{  
+    text-align: center ;
+    padding: 15px;
+    border-radius: 50%;
+    background-color:  rgba(213, 225, 219, 0.4);
+    margin: 0 10px;
+ }
+ .cont5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+ }
+ .footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+ }
+ #brand{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   .brand1{
+    width: 30%;
+   }
+ footer{
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+ }
+
+@media(max-width:800px){
+     .lable{
+        display: block;
+     }
+     ul{
+        display: none;
+     }
+     .svg{
+        display: none;
+
+     }
+     .box2{
+        font-size: 20px;
+       }
+       .box1{
+        text-align: center;
+       }
+       .cont1{
+        display: block;
+       }
+       .video{
+        display: block;
+       }
+       .box4{
+        width: 100%;
+      }
+      .box5{
+        width: 100%;
+        padding: 0 20px;
+      }
+      .b5{
+        width: 100%;
+      }
+      .box7{
+        display: block;
+      }
+      .red1{
+        width: 100%;
+      }
+      .red2{
+        width: 100%;
+      }
+      .mapflex{
+        display: block;
+       }
+       .map1{
+        width: 100%;
+       }
+       .footer{
+        display: block;
+    }
+    .footer1{
+        width: 100%;
+    }
+    .footer img{
+        width: 100%;
+    }
+}
+@media(max-width:360px){
+     .text{
+        font-size: 10px;
+     }
+}

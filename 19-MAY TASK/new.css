@@ -85,7 +85,7 @@ nav{
     background-color: #F7F7F7;
     /* border: 1px solid black; */
   }
- .video{
+  .video{
     display: flex;
     width: 75%;
     /* border: 1px solid black; */
@@ -93,16 +93,10 @@ nav{
   .box4{
     /* border: 1px solid black; */
     width: 50%;
-    position: relative;
-    padding: 10px;
     /* border-radius: 10px; */
   } 
-  .v{
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 45%;
-    left: 45%;
+  iframe{
+    padding: 10px;
   }
   .box5{
     /* border: 1px solid black; */
@@ -137,6 +131,10 @@ nav{
     width: 50%;
     color: white;
     padding: 10px;
+ }
+ .red2{
+  width: 50%;
+  height: 100%;
  }
  .cont4{
     width: 100%;
