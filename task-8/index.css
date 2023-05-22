@@ -255,6 +255,10 @@ li{
     .footer img{
         width: 100%;
     }
+    #pragraph1{
+      width: 100%;
+      padding: 10px 0;
+   }
 }
 @media(max-width:360px){
      .text{
