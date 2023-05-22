@@ -27,11 +27,19 @@ nav{
   #check{
     display: none;
   }
+  #check{
+    display: none;
+  }
   #checkbtn{
     margin:0 20px;
     display: none;
   }
-  
+  #About{
+    border: none;
+  }
+  #clients{
+    border: none;
+  }
   .cont1 {
     display: flex;
     background: rgba(242, 242, 242, 0.65);
@@ -175,6 +183,7 @@ nav{
  .brand1{
   width: 33.33%;
  }
+
   @media(max-width:895px) {
     nav ul{
         display: none;
