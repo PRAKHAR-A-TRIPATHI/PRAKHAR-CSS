@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(225, 227, 228);
+    
+}
+.main h3{
+    color: aqua;
+    padding: 10px;
+}
+#p{
+    visibility: hidden;
+}
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.details1{
+    width: 40%;
+    /* padding: 10px; */
+}
+.day1{
+    padding: 10px 0;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.day2{
+    padding: 10px 0;
+    color: blue;
+    border-radius: 5px;
+}
+.day1 h2{
+    padding:0 10px;
+}
+.day1 p{
+    padding:0 10px;
+}
+.day2 h2{
+    padding:0 10px;
+}
+.day2 p{
+    padding:0 10px;
+}
+.det1{
+    display: flex;
+    padding: 0 0 40px 0;
+}
+.time{
+    white-space: nowrap;
+    padding: 0 10px;
+}
+.box{
+    padding: 0 0 0 10px;
+}
