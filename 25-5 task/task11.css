@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+}
+.container1{
+    background-color: white;
+    border: 1px solid grey;
+    width: 15%;
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* align-items: center; */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 5px;
+}
+.cont1{
+    color: blue;
+    padding: 5px;
+}
+.container2{
+    background-color: white;
+    border: 1px solid grey;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+}
+.container3{
+  width: 15%;
+  margin: 10px;
+}
+.details1{
+    display: flex;
+    justify-content: space-between;
+}
+.det1{
+    display: flex;
+}
+.det2 button{
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+p{
+    padding: 5px;
+}
+.form1{
+    display: flex;
+    justify-content: space-between;
+}
+.email input,textarea{
+    width: 100%;
+}
+.details3{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.text button{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+form{
+    padding: 10px 0;
+}
+form p{
+    padding: 10px 0;    
+}
+span{
+    border: 1px solid gray;
+    border-bottom: none;
+    padding: 2px;
+}
+.line{
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+.setting{
+    display: flex;
+}
+input{
+    padding: 5px 50px;
+}
+.save{
+    float: right;
+}
+.save button{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.cont3{
+    border: 1px solid gray;
+    margin:0 0 10px 0;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25); 
+    padding: 20px;
+}
+.cont3 h3{
+    padding: 10px 0;
+}
+.cont3 .btn{
+    padding: 10px 0;
+}
+#btnn{
+    text-align: center;
+}
+.cont3 button{
+    background-color: gray;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.btn button{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;     
+}
