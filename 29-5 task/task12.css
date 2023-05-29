@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+  border: 1px solid grey;
+  margin: 10px;
+  display: flex;
+}
+.container{
+    display: flex;
+    padding: 10px;
+}
+.left{
+    width: 30%;
+    padding: 10px;
+}
+.right{
+    width: 70%;
+    padding: 10px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+.img img{
+    max-width: 50%;
+}
+
+.btn button{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+.middle{
+    border-bottom: 1px solid grey;
+    padding: 25px 10px;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+.bottom{
+    border-top:1px solid grey;
+    margin-top:  7rem;
+}
+.table table{
+    width: 100%;
+}
+table td{
+    padding: 10px;
+}
+#ta{
+    text-align: end;
+}
+.prew{
+    padding: 15px 0;
+}
+.prew button{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.btn1{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+.btn1 button{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+#btn1{
+   background-color: blue;
+   color: white;
+   padding: 10px;
+   border:none;
+   border-radius: 5px;
+}
+.svg{
+    border-bottom: 1px solid grey;
+    display: flex;
+    padding: 10px;
+}
+.info{
+    padding: 10px;
+}
+#info{
+    color: blue;
+}
+.comment{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    display: flex;
+}
+.img1{
+    width: 5%;
+    padding: 15px 0;
+}
+.img1 img{
+    max-width: 100%;
+}
+.com1{
+    display: flex;
+    padding: 5px;
+}
+.com1 p,h3{
+    padding: 10px;
+}
+.comment p{
+    padding:5px 15px;
+}
+.com{
+    padding: 5px;
+}
+.star{
+    display: flex;
+}
+.willie{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    display: flex;
+}
+.head{
+    width: 5%;
+}
+.head img{
+    max-width: 100%;
+}
+.star p{
+    padding: 10px;
+}
+.dylan{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.prag p{
+    padding: 10px 15px;
+}
+.img4 img{
+    max-width: 25%;
+}
+.name h1,h3{
+    padding: 5px;
+}
+.p1{
+    padding: 10px;
+}

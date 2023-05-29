@@ -31,6 +31,7 @@ button{
     border-color:green ;
     color: green;
     border-radius:5px ;
+    transition: 1s;
 }
 .round{
     background-color: gray;
@@ -58,3 +59,8 @@ p{
 .hr{
     margin:0 4rem;
 }
+button:hover{
+    background-color: green;
+    color:white;
+    border-color:blue;
+}   
