@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px;
+}
+
+.btn button {
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.container1 h1 {
+    font-size: 3em;
+    padding: 10px;
+}
+
+.container1 p {
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.container1 button {
+    padding: 10px;
+    width: 15%;
+    margin: 3rem;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    left: 20%;
+    /* right: 10%; */
+    bottom: 10%;
+}
+.img2{
+    position: relative;
+    width: 50%;
+
+}
+.img3{
+    position: absolute;
+    z-index: -1;
+    bottom: -20%;
+   
+}
+img{
+    max-width: 100%;
+}
+.container3{
+    background-color: blue;
+    text-align: center;
+    clip-path: ellipse(px 10px 0px 0);
+}  
+.skill1{
+    background-color: rgb(139, 137, 137);   
+    border-radius: 15px;
+    height: 10px;
+}
+.skills {
+    color: #04AA6D;
+    background-color: white;
+    border-radius: 5px;
+    height: 10px;   
+  }
+  .html {width: 90%;
+     background-color: #04AA6D;
+    }  
+  .cir3{
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid hotpink;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+  }
+  .cir2{
+    border: 5px solid blue;
+    border-radius: 50%;
+    height: 11  0px;
+    width: 110px;
+  }
+  .cir1{
+    
+    border: 5px solid darkblue;
+    border-radius: 50%; 
+    height: 120px;
+    width: 120px;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+  }
+  .box1{
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+  }
+  .logo1{
+    padding: 10px;
+  }
+  .logo1 h3,p,img{
+    padding: 10px;
+  }
+  .skillbar{
+    padding: 10px;
+  }
+  .btn button{
+    background-color: white;
+    color: blue;
+  }
