@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px;
+    display: flex;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.container1 h1 {
+    font-size: 3em;
+    padding: 10px;
+}
+
+.container1 p {
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.container1 button {
+    padding: 10px 60px;
+    margin: 3rem;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn button {
+    background-color: blue;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 20px;
+}
+
+.he {
+    padding: 10px;
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    /* object-fit: cover; */
+}
+
+.container2 {
+    clip-path: polygon(0 68%, 100% 31%, 100% 100%, 0% 100%);
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+.container2::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+   background-color: blue;
+}
+
+.container3 {
+    background-color: blue;
+    /* text-align: center; */
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    margin: 5rem;
+    padding: 20px;
+}
+
+.box1 h2,
+p {
+    padding: 10px;
+}
+
+.skillbar {
+    padding: 10 px;
+}
+
+.skill1 {
+    background-color: rgb(139, 137, 137);
+    border-radius: 15px;
+    height: 10px;
+}
+
+.skills {
+    color: #04AA6D;
+    background-color: white;
+    border-radius: 5px;
+    height: 10px;
+}
+
+.html {
+    width: 70%;
+    background-color: aqua;
+}
+
+.html1 {
+    width: 50%;
+    background-color: blue;
+}
+
+.html2 {
+    width: 80%;
+    background-color: purple;
+}
+
+.html3 {
+    width: 20%;
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    margin: 5rem;
+    padding: 20px;
+}
+
+.box2 h2,
+p {
+    padding: 30px 10px;
+}
+
+.container3 .heading1 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.circle {
+    margin: 5rem 2rem;
+}
+
+.btn1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.btn1 button {
+    border-radius: 20px;
+    padding: 10px 60px;
+    background-color: white;
+    color: blue;
+    border: none;
+}
+
+@media(max-width:700px) {
+    .he {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+}

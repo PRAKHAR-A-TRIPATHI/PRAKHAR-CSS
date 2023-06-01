@@ -1,0 +1,306 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px;
+    display: flex;
+}
+.btn button {
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+}
+.he{
+    padding: 10px;
+    display: none;
+}
+.container1 {
+    text-align: center;
+}
+.container1 h1 {
+    font-size: 3em;
+    padding: 10px;
+}
+.container1 p {
+    font-size: 1.1em;
+    padding: 10px;
+}
+.container1 button {
+    padding: 10px;
+    width: 200px;
+    margin: 3rem;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.container4 button {
+    padding: 10px;
+    width: 200px;
+    margin: 3rem;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+img{
+    max-width: 100%;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+.img2{
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left: 20%;
+}
+.img3{
+    position: absolute;
+    z-index: -1;
+    top:70%;
+}
+
+
+
+
+
+.container3{
+    background-color: blue;
+    /* text-align: center; */
+
+}  
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    margin: 5rem;
+    padding: 20px;
+}
+.box1 h2,p{
+    padding: 10px;
+}
+.skillbar{
+    padding: 10 px;
+}
+.skill1{
+    background-color: rgb(139, 137, 137);   
+    border-radius: 15px;
+    height: 10px;
+}
+.skills {
+    color: #04AA6D;
+    background-color: white;
+    border-radius: 5px;
+    height: 10px;   
+  }
+  .html {
+    width: 70%;
+    background-color: aqua;
+   }  
+  .html1{
+    width: 50%;
+    background-color: blue;
+   }  
+  .html2 {
+    width: 80%;
+    background-color: purple;
+   }  
+  .html3 {
+    width: 20%;
+    background-color: yellow;
+   }  
+.box2{
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    margin: 5rem;
+    padding: 20px;
+}
+.box2 h2,p{
+    padding: 30px 10px;
+    }
+    
+.container3::before {
+    content: ' ';
+    border-top: 30vh solid #fbfdff;
+    border-right: 98vw solid transparent;
+    width: 0;
+    position: absolute;
+  }
+
+.container3 .heading1{
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.circle{
+    margin: 5rem 2rem;
+}
+.btn1{
+    text-align: center;
+    padding: 30px;
+}
+
+
+  
+  .button1 button {
+    padding: 10px 60px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+#b1{
+    padding: 10px 60px;
+    background-color: rgb(248, 248, 253);
+    border: none;
+    color: rgb(9, 39, 170);
+    border-radius: 20px;
+}
+.btn1 button{
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+  .mobile{
+    background-color: rgb(135, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Prosses {
+    background-color: rgb(167, 163, 163);
+    border-radius: 10px;
+    width: 70%;
+  
+}
+
+.range {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.blue {
+    width: 40%;
+    background-color: blue;
+
+}  
+.face{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+}
+.social2{
+    padding: 30px;
+}
+.mobileres{
+    display: none;
+}
+.container4 h1{
+    padding: 2rem 0;
+}
+@media(max-width:700px){
+    .he{
+        display: block;
+        }
+    nav{
+        display: none;
+    }  
+    header{
+        justify-content: space-between;
+    }  
+    br{
+        display: none;
+    }
+    .btn button{
+        width: 90px;
+    }
+    .img1{
+        top: 65%;
+    left: 0%;
+    bottom: 5%;
+    /* top: 69%; */
+    right: 20%;
+    }
+    .img3{
+        top:72%;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1{
+        width: 60%;
+    }
+    .box2{
+        width: 60%;
+    }
+    .mobile{
+        display: block;
+    }
+    .laptop{
+        display: none;
+    }
+    .mobileres{
+        display: block  ;
+    }
+    .button1 button{
+        margin: 10px ;
+        width: 90%;
+    }
+    .button1{
+        text-align: center;
+    }
+}
+   
