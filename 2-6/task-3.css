@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    padding: 20px 40px;
+    background-color: brown;
+}
+.img1{
+    width: 20%;
+    height: 700px;
+    border: 5px solid gray;
+    border-radius: 15px;
+    /* transition: 3s; */
+    position: relative;
+}
+img{
+    height: 690px;
+    max-width: 100%;
+    object-fit: cover;
+   
+}
+.img1:hover{
+    transition: 3s;
+    width: 80%;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .img1:hover .overlay {
+    opacity: 1;
+  }

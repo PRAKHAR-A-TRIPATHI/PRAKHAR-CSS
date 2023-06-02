@@ -238,6 +238,7 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: darkblue;
+    color: white;
 }
 .social2{
     padding: 30px;
@@ -301,6 +302,14 @@ footer{
     }
     .button1{
         text-align: center;
+    }
+    .mobile{
+        text-align: center;
+    }
+    footer{
+        display: block;
+        text-align: center;
+        color: white;
     }
 }
    

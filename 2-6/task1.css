@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(3, 3, 29);
+    color: white;
+    padding: 80px 20px 20px 20px;
+   
+}
+.container1{
+    text-align: center;
+}
+.container1 h1{
+    font-size: 3em;
+    padding: 10px;
+}
+#pragraph{
+    color: blueviolet;
+    padding: 10px;
+}
+.button{
+    background-color: rgb(44, 44, 44);
+    padding: 5px;
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    margin-top: 2rem;
+}
+.card1 h4{
+    background-color: blueviolet;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.pragraph{
+    padding: 10px;
+}
+#button1 {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+#button2 {
+    background-color:  rgba(44, 44, 44,0.5);
+     color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px ;
+}
+
+.container2{
+    padding: 50px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.card1{
+    border: 2px solid grey;
+    padding: 20px;
+    width: 30%;
+}
+.pragraph1{
+    padding: 10px;
+}
+.card1{
+    border: 2px solid grey;
+    padding: 20px;
+    width: 32%;
+    border-radius: 10px;
+    box-shadow: 0 0 1px;
+}
+.card1 h3{
+    padding: 10px;
+}
+ul{
+    padding: 30px 0;
+}
+li{
+    padding: 10px 0;
+}
+strong{
+    font-size: 25px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+#card2 {
+    border: 2px solid blueviolet;
+}
+#card2 button{
+    background-color: blueviolet;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+.card1 button{
+   width: 100%;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   color: white;
+   background-color: grey;
+}
+@media(max-width:800px){
+    .container2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card1{
+        width: 46%;
+        margin: 10px;
+    }
+}
+@media(max-width:590px){
+    .container2{
+       /* display: block; */
+    }
+    .card1{
+      width: 95%;
+      margin: 20px;
+    }
+    .card1 h4{
+        font-size: 15px;
+    }
+}

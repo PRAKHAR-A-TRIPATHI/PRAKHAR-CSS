@@ -5,7 +5,7 @@
 
 .main {
     padding: 5px 30px 30px 30px;
-   
+
 }
 
 .header {
@@ -31,7 +31,7 @@ i {
     text-align: center;
 }
 
-.shope {
+.shope {        
     display: flex;
     padding: 30px 0;
 }
@@ -69,7 +69,6 @@ img {
 .blue {
     width: 40%;
     background-color: blue;
-
 }
 
 ul {
@@ -99,15 +98,16 @@ ul {
 }
 
 .addresh h4 {
-    padding:0 0 10px 0;
+    padding: 0 0 10px 0;
 }
 
 .updates h4,
 a {
     /* padding: 10px 0; */
 }
-#a{
-    padding: 10px 0; 
+
+#a {
+    padding: 10px 0;
 }
 
 #prageaph {

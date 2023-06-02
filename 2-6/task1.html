@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1</title>
+    <!-- <link rel="stylesheet" href="task1.css">    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            background-color: rgb(3, 3, 29);
+            color: white;
+            padding: 80px 20px 20px 20px;
+
+        }
+
+        .container1 {
+            text-align: center;
+        }
+
+        .container1 h1 {
+            font-size: 3em;
+            padding: 10px;
+        }
+
+        #pragraph {
+            color: blueviolet;
+            padding: 10px;
+        }
+
+        .button {
+            background-color: rgb(44, 44, 44);
+            padding: 5px;
+            border-radius: 20px;
+            width: 200px;
+            margin: auto;
+            margin-top: 2rem;
+        }
+
+        .card1 h4 {
+            background-color: blueviolet;
+            border-radius: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .pragraph {
+            padding: 10px;
+        }
+
+        #button1 {
+            background-color: blueviolet;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+        }
+
+        #button2 {
+            background-color: rgba(44, 44, 44, 0.5);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+        }
+
+        .container2 {
+            padding: 50px 20px 20px 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card1 {
+            border: 2px solid grey;
+            padding: 20px;
+            width: 30%;
+        }
+
+        .pragraph1 {
+            padding: 10px;
+        }
+
+        .card1 {
+            border: 2px solid grey;
+            padding: 20px;
+            width: 32%;
+            border-radius: 10px;
+            box-shadow: 0 0 1px;
+        }
+
+        .card1 h3 {
+            padding: 10px;
+        }
+
+        ul {
+            padding: 30px 0;
+        }
+
+        li {
+            padding: 10px 0;
+        }
+
+        strong {
+            font-size: 25px;
+        }
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #card2 {
+            border: 2px solid blueviolet;
+        }
+
+        #card2 button {
+            background-color: blueviolet;
+            border: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .card1 button {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background-color: grey;
+        }
+
+        @media(max-width:800px) {
+            .container2 {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .card1 {
+                width: 46%;
+                margin: 10px;
+            }
+        }
+
+        @media(max-width:590px) {
+            .container2 {
+                /* display: block; */
+            }
+
+            .card1 {
+                width: 95%;
+                margin: 20px;
+            }
+
+            .card1 h4 {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="container1">
+            <p id="pragraph">Pricing</p>
+            <h1>Pricing Plans for Teams of all sizes </h1>
+            <div class="pragraph">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quam ex veritatis aliquid
+                    reprehenderit laboriosam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ab.</p>
+            </div>
+            <div class="button">
+
+                <button id="button1">Monthly</button>
+
+
+                <button id="button2">Annually</button>
+
+            </div>
+        </div>
+        <div class="container2">
+            <div class="card1">
+                <h3>Freelancer</h3>
+                <p class="pragraph1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, doloribus?</p>
+                <p class="pragraph1"><strong>$15</strong>/month</p>
+                <button>Buy Plan</button>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 5 product</li>
+                    <li><i class="fa-solid fa-check"></i> Up to Subscribers</li>
+                    <li><i class="fa-solid fa-check"></i> basic analyscs</li>
+                    <li><i class="fa-solid fa-check"></i> 48 - houers support responsr time</li>
+                </ul>
+
+            </div>
+            <div class="card1" id="card2">
+                <div class="head">
+                    <h3>Freelancer</h3>
+                    <h4>Most popular</h4>
+                </div>
+                <p class="pragraph1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, doloribus?</p>
+                <p class="pragraph1"><strong>$30</strong>/month</p>
+                <button>Buy Plan</button>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 5 product</li>
+                    <li><i class="fa-solid fa-check"></i> Up to Subscribers</li>
+                    <li><i class="fa-solid fa-check"></i> basic analyscs</li>
+                    <li><i class="fa-solid fa-check"></i> 48 - houers support responsr time</li>
+                    <li><i class="fa-solid fa-check"></i> Marketing automatians</li>
+                </ul>
+
+            </div>
+            <div class="card1">
+                <h3>Enterprice</h3>
+                <p class="pragraph1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, doloribus?</p>
+                <p class="pragraph1"><strong>$48</strong>/month</p>
+                <button>Buy Plan</button>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 5 product</li>
+                    <li><i class="fa-solid fa-check"></i> Up to Subscribers</li>
+                    <li><i class="fa-solid fa-check"></i> basic analyscs</li>
+                    <li><i class="fa-solid fa-check"></i> 48 - houers support responsr time</li>
+                    <li><i class="fa-solid fa-check"></i> Markating automotions</li>
+                    <li><i class="fa-solid fa-check"></i> custoom respoting tools</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

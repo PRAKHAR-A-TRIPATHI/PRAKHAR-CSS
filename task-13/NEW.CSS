@@ -64,116 +64,30 @@ img {
     /* object-fit: cover; */
 }
 
-.container2 {
-    clip-path: polygon(0 68%, 100% 31%, 100% 100%, 0% 100%);
-    background-color: blue;
-    position: relative;
-    z-index: 1;
-    display: flex;
-}
-.container2::after{
-    content: "";
-    height: 100%;
-    width: 100%;
-   background-color: blue;
-}
-
-.container3 {
-    background-color: blue;
-    /* text-align: center; */
-
-}
-
-.box {
+.container2{
+    background-image: linear-gradient(to bottom right,rgb(245, 245, 250) 50%,blue 50%);
     display: flex;
     justify-content: center;
 }
-
-.box1 {
-    background-color: white;
-    border-radius: 5px;
-    width: 30%;
-    margin: 5rem;
-    padding: 20px;
+.img2{
+    position: absolute;
+    z-index: 2;
+    bottom: -30%;
 }
-
-.box1 h2,
-p {
-    padding: 10px;
+.img1{
+    position: absolute;
+    z-index: 3; 
+    bottom: 20%;
+    left: 20%;
+    right:50%;
+    /* left: 10%;  */
 }
-
-.skillbar {
-    padding: 10 px;
+.img3{
+    position: relative;
+    z-index: 1;
+    top: 100px; 
+   
 }
-
-.skill1 {
-    background-color: rgb(139, 137, 137);
-    border-radius: 15px;
-    height: 10px;
-}
-
-.skills {
-    color: #04AA6D;
-    background-color: white;
-    border-radius: 5px;
-    height: 10px;
-}
-
-.html {
-    width: 70%;
-    background-color: aqua;
-}
-
-.html1 {
-    width: 50%;
-    background-color: blue;
-}
-
-.html2 {
-    width: 80%;
-    background-color: purple;
-}
-
-.html3 {
-    width: 20%;
-    background-color: yellow;
-}
-
-.box2 {
-    background-color: white;
-    border-radius: 5px;
-    width: 30%;
-    margin: 5rem;
-    padding: 20px;
-}
-
-.box2 h2,
-p {
-    padding: 30px 10px;
-}
-
-.container3 .heading1 {
-    padding-bottom: 1rem;
-    text-align: center;
-}
-
-.circle {
-    margin: 5rem 2rem;
-}
-
-.btn1 {
-    text-align: center;
-    padding: 30px;
-}
-
-.btn1 button {
-    border-radius: 20px;
-    padding: 10px 60px;
-    background-color: white;
-    color: blue;
-    border: none;
-}
-
 @media(max-width:700px) {
     .he {
         display: block;

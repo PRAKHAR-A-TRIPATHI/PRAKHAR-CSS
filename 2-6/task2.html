@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2</title>
+    <!-- <link rel="stylesheet" href="task2.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            height: 100vh;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        h3 {
+            padding: 10px;
+        }
+
+        p {
+            line-height: 25px;
+            padding: 0 10px;
+        }
+
+        .line {
+            display: flex;
+            color: blue;
+            position: relative;
+            /* padding: 0 20px 0 0; */
+            /* flex-direction: row; */
+        }
+
+        .line:after {
+            content: "";
+            border-top: 1px solid rgb(47, 36, 204);
+            margin: auto;
+            width: 68%;
+            position: absolute;
+            top: 50%;
+            left: 35%;
+
+
+        }
+
+        .box {
+            width: 25%;
+        }
+
+        @media(max-width:800px) {
+            .main {
+                flex-wrap: wrap;
+            }
+
+            .box {
+                width: 50%;
+            }
+        }
+
+        @media(max-width:500px) {
+            .main {
+                flex-wrap: wrap;
+            }
+
+            .box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <p class="line">• Aug 2021</p>
+            <h3>Founded company </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur nesciunt quo placeat consectetur
+                incidunt veritatis inventore dolores vero, repellendus voluptate?</p>
+        </div>
+        <div class="box">
+            <p class="line">• Dec 2021</p>
+            <h3>Founded company </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur nesciunt quo placeat consectetur
+                incidunt veritatis inventore dolores vero, repellendus voluptate?</p>
+        </div>
+        <div class="box">
+            <p class="line">• Feb 2021</p>
+            <h3>Founded company </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur nesciunt quo placeat consectetur
+                incidunt veritatis inventore dolores vero, repellendus voluptate?</p>
+        </div>
+        <div class="box">
+            <p class="line">• Dec 2022</p>
+            <h3>Founded company </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur nesciunt quo placeat consectetur
+                incidunt veritatis inventore dolores vero, repellendus voluptate?</p>
+        </div>
+</body>
+
+</html>

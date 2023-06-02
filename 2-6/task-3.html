@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-3</title>
+    <!-- <link rel="stylesheet" href="task-3.css"> -->
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    padding: 20px 40px;
+    background-color: brown;
+}
+.img1{
+    width: 20%;
+    height: 700px;  
+    border: 5px solid gray;
+    border-radius: 15px;
+    position: relative;
+    transition: 2s;
+}
+img{
+    height: 690px;
+    max-width: 100%;
+    object-fit: cover;
+   
+}
+.img1:hover{
+    transition: 2s;
+    width: 100%;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .img1:hover .overlay {
+    opacity: 1;
+  }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img1">
+            <img src="https://source.unsplash.com/900x900/?bird" alt="">
+            <div class="overlay">Exploar the World animals</div>
+        </div>
+        <div class="img1">
+            <img src="https://source.unsplash.com/900x900/?mountain" alt="">
+            <div class="overlay">Exploar the World animals</div>
+        </div>
+        <div class="img1">
+            <img src="https://source.unsplash.com/900x900/?tortoise" alt="">
+            <div class="overlay">Exploar the World animals</div>
+        </div>
+        <div class="img1">
+            <img src="https://source.unsplash.com/900x900/?ocean" alt="">
+            <div class="overlay">Exploar the World animals</div>
+        </div>
+        <div class="img1">
+            <img src="https://source.unsplash.com/900x900/?fores" alt="">
+            <div class="overlay">Exploar the World animals</div>
+        </div>
+    </div>
+</body>
+</html>
