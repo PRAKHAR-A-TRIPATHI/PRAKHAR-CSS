@@ -1,0 +1,102 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.main{
+    display: flex;
+}
+.logo{
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+.nav{
+    width: 70%;
+}
+ul{
+    list-style: none;
+}
+.ul1{
+    display: flex;
+}
+.li1{
+    padding: 10px;
+}
+.li1 #li3 li{
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(200, 197, 197, 0.048);
+    padding: 20px;
+}
+#li2 ul{
+    display: none;   
+}
+#li4 #ul1{
+    display: none;
+    position: absolute;
+   left: 48.50%;
+    top:13.25%
+}
+#li2:hover{
+    color: orange;
+}
+#li4:hover{
+    color: orange;
+}
+#li5:hover{
+    color: orange;
+}
+#li5 #ul2{
+    display: none;
+    position: absolute;
+    right: -50%;
+    top:0%
+}
+#li2:hover #li3{
+    display: block;
+    color: black;
+}
+#li4:hover #ul1{
+    display: block;
+    color: black;
+}
+#li5:hover #ul2{
+    display: block;
+    color: black;
+}
+#li10:hover{
+    color: orange;
+}
+#li10:hover .ul5{
+    display: flex;
+     color: black;
+}
+.ul5 {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    display: none;
+    right: 20%;
+    white-space: nowrap;
+    /* text-align: left; */
+}
+.ul5 li {
+    padding: 20px 10px;
+    padding-right: 50px ;
+    
+}
+.ul5 li{
+    border: 1px solid gray;
+  
+
+}
+.ul5 li ul{
+    text-align: left ;
+}
+.ul5 ul li{
+    text-align: left;
+}
+.ul5 li ul li{
+    border: none;
+}

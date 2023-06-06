@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>task-2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            display: flex;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+
+        }
+
+        nav>ul {
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+        }
+
+        li:hover {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li>HOME</li>
+                    <li>DROPDOWN MENU <i class="fa-solid fa-chevron-up fa-rotate-180"></i>
+                        <ul class="dropmenu">
+                            <li class="m1">Menu level 3 <i class="fa-solid fa-chevron-up fa-rotate-90"></i>
+                                <ul class="super-supdrop ss-drop-1">
+                                    <li>LINK 1</li>
+                                    <li>LINK 2</li>
+                                    <li>LINK 3</li>
+                                    <li>LINK 4</li>
+                                    <li>LINK 5</li>
+                                </ul>
+                            </li>
+                            <li>LINK 1</li>
+                            <li>LINK 2</li>
+                            <li>LINK 3</li>
+                            <li>LINK 4</li>
+                            <li>LINK 5</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>

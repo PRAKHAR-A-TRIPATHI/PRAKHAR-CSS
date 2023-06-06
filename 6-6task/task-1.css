@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .main{
+     padding: 15px;
+ }
+ .box{
+    display: flex;
+}
+header i{
+    padding: 10px;
+}
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    padding: 10px;
+    white-space: nowrap;
+}
+img{
+    max-width: 100%;
+}
+.container2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    white-space: nowrap;
+}
+.container3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    white-space: nowrap;
+}
+.text h3,p{
+    padding: 5px;
+}
+#btn1{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+#btn2{
+    /* background-color: blue; */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    /* color: white; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+input::file-selector-button {
+    
+    font-weight: bold;
+    color: dodgerblue;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    float: right;
+    
+}
+#info{
+    padding: 20px 0;
+}
+#info1{
+    padding: 15px 0;
+}
+#tittle1{
+    padding: 7px;
+    background-color: rgba(176, 211, 250, 0.2);
+    border: none;
+    border-radius: 5px;
+    /* width: 99%; */
+}
+#tittle{
+    padding: 7px;
+    background-color: rgba(176, 211, 250, 0.2);
+    border: none;
+    border-radius: 5px;
+    width: 95%;
+}
+#tittle2{
+    padding: 7px;
+    background-color: rgba(176, 211, 250, 0.2);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+.mobileno{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    padding: 0 0 0 10px;
+}
+p{
+    padding-top: 15px;
+}

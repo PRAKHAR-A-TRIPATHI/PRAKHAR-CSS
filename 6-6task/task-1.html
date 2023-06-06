@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="task-1.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            padding: 15px;
+        }
+
+        .box {
+            display: flex;
+        }
+
+        header i {
+            padding: 10px;
+        }
+
+        .container {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 10px;
+            white-space: nowrap;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .container2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 10px;
+            white-space: nowrap;
+        }
+
+        .container3 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 10px;
+            white-space: nowrap;
+        }
+
+        .text h3,
+        p {
+            padding: 5px;
+        }
+
+        #btn1 {
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 50%;
+        }
+
+        #btn2 {
+            /* background-color: blue; */
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            /* color: white; */
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 50%;
+        }
+
+        input::file-selector-button {
+
+            font-weight: bold;
+            color: dodgerblue;
+            background-color: white;
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+            float: right;
+
+        }
+
+        #info {
+            padding: 20px 0;
+        }
+
+        #info1 {
+            padding: 15px 0;
+        }
+
+        #tittle1 {
+            padding: 7px;
+            background-color: rgba(176, 211, 250, 0.2);
+            border: none;
+            border-radius: 5px;
+            /* width: 99%; */
+        }
+
+        #tittle {
+            padding: 7px;
+            background-color: rgba(176, 211, 250, 0.2);
+            border: none;
+            border-radius: 5px;
+            width: 95%;
+        }
+
+        #tittle2 {
+            padding: 7px;
+            background-color: rgba(176, 211, 250, 0.2);
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        form {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mobileno {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .number {
+            padding: 0 0 0 10px;
+        }
+
+        p {
+            padding-top: 15px;
+        }
+        .save{
+            padding: 25px 0;
+        }
+        #save{
+            padding: 20px;
+            width: 100%;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <h3 id="info1"><i class="fa-solid fa-angle-left" style="color: aqua;"></i>My Profile</h3>
+        </header>
+
+        <div class="container">
+            <i class="fa-solid fa-pencil" style="float:right;"></i>
+            <div class="box">
+                <div class="img">
+                    <img src="4140037.png" alt="">
+                </div>
+                <div class="text">
+                    <h4>Dr Bhaskar Sharma</h4>
+                    <p>DrID 57601</p>
+                </div>
+            </div>
+            <div class="btn">
+                <button id="btn1">Doctor profile</button>
+                <button id="btn2">General Information</button>
+            </div>
+        </div>
+
+        <h3 id="info">Personal Information</h3>
+
+        <div class="container2">
+            <div class="tittle">
+                <p>Tittle</p>
+                <select name="" id="tittle1">
+                    <option value="">Dr</option>
+                    <option value="">Mrs</option>
+                    <option value="">Ms</option>
+                </select>
+            </div>
+            <div class="name">
+                <p>First name</p>
+                <input type="text" placeholder="enter your first name" id="tittle">
+                <p>Last name</p>
+                <input type="text" placeholder="enter your Last name" id="tittle">
+                <p for="">Email</p>
+                <input type="text" placeholder="exasmple@gmail.com" id="tittle">
+            </div>
+            <div class="radio">
+                <p>Gender</p>
+                <form>
+                    <div>
+                        <input type="radio" id="male" value="HTML">
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="femlae" value="CSS">
+                        <label for="femlae">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Other" value="Other">
+                        <label for="Other">Other</label>
+                    </div>
+                </form>
+            </div>
+            <p>Mobile Number</p>
+            <div class="mobileno">
+                <div class="tittle1">
+                    <select name="" id="tittle2" style="color: blue;">
+                        <option value="">⛳+91</option>
+                        <option value="">⛳+92</option>
+                        <option value="">⛳+93</option>
+                    </select>
+                </div>
+                <div class="number">
+                    <input type="number" placeholder="000000000" id="tittle">
+                </div>
+            </div>
+            <div class="birth">
+                <p>Date of birth</p>
+                <input type="date" id="tittle">
+                <p>Addresh</p>
+                <input type="text" placeholder="buliding number name ,street name..." id="tittle">
+            </div>
+            <div class="state">
+                <div class="tittle">
+                    <p>state</p>
+                    <select name="" id="tittle2">
+                        <option value="">Select your State</option>
+                        <option value="">Dr</option>
+                        <option value="">Mrs</option>
+                        <option value="">Ms</option>
+                    </select>
+                </div>
+                <div class="tittle">
+                    <p>city</p>
+                    <select name="" id="tittle2">
+                        <option value="">Select your city</option>
+                        <option value="">Dr</option>
+                        <option value="">Mrs</option>
+                        <option value="">Ms</option>
+                    </select>
+                </div>
+            </div>
+            <div class="code">
+                <p>Pin code</p>
+                <input type="text" placeholder="enter your Pin code" id="tittle">
+                <p>Addhar Card</p>
+                <input type="file" placeholder="enter your Last name" id="tittle">
+            </div>
+
+        </div>
+
+        <h3 id="info">Personal Information</h3>
+        <div class="container3">
+            <p>Registration id</p>
+            <input type="text" placeholder="enter your id" id="tittle">
+            <p>Year of Registration</p>
+            <select name="" id="tittle2">
+                <option value="">YYYY</option>
+                <option value="">Dr</option>
+                <option value="">Mrs</option>
+                <option value="">Ms</option>
+            </select>
+            <p>Parents Name</p>
+            <input type="text" placeholder="enter your Parents Name" id="tittle">
+            <p>Registration documents</p>
+            <input type="file" placeholder="enter your Last name" id="tittle">
+            <p>State Medical Council</p>
+            <select name="" id="tittle2">
+                <option value="">Select your state medical council</option>
+                <option value="">Dr</option>
+                <option value="">Mrs</option>
+                <option value="">Ms</option>
+            </select>
+        </div>
+        <div class="save">
+        <button id="save">Save</button>
+    </div>
+    </div>
+   
+    </div>
+
+
+
+
+</body>
+
+</html>
