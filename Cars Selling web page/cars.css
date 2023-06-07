@@ -1,1 +1,51 @@
-li:hover select{display: block;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+   background-color: rgb(6, 1, 36);
+}
+img{
+    max-width: 100%;
+}
+.main{
+    display: flex;
+}
+
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      
+    }
+ .search input{
+     text-indent: 25px;
+     border: 2px solid #d6d4d4;
+
+
+    }
+  .popular{
+    display: flex;
+    justify-content: space-between;
+  } 
+  a{
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+  }
+    .search input:focus{
+
+     box-shadow: none;
+     border: 2px solid blue;
+
+
+    }
+
+    .search .fa-search{
+
+     position: absolute;
+     top: 10px;
+     left: 14px;
+
+    }
+
