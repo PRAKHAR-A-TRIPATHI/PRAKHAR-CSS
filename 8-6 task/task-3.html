@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        *{
+            color: white;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+         input{
+            border-bottom: 2px solid white;
+         }
+        
+        .text {
+            position: absolute;
+            bottom: 5px;
+        }
+        
+        .text span {
+            color: rgb(252, 250, 250);
+            display: inline-block;
+        }
+       input:focus +label span{
+            transform: translateY(-20px);
+            transition:0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+       }
+
+    </style>
+</head>
+
+<body class="d-flex align-items-center bg-secondary text-white">
+    <div class="container bg-primary rounded shadow-lg" style="width: 400px;">
+        <h1 class="text-center text-dark" >Login</h1>
+        <div class="mb-3 border-bottom position-relative">
+            <input type="email" class="form-control bg-primary border border-0 in" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+            <label for="exampleInputEmail1" class="form-label text">
+                <!-- <div class="text"> -->
+                    <span style="transition-delay: 0.1s;">E</span><span style="transition-delay: 0.2s;">m</span><span style="transition-delay: 0.3s;">a</span><span style="transition-delay: 0.4s;">i</span><span style="transition-delay: 0.5s;">l</span>
+                <!-- </div> -->
+            </label>
+            
+
+        </div>
+
+
+        <div class="mb-3 border-bottom position-relative">
+            <input type="password" class="form-control bg-primary border border-0 in" id="exampleInputPassword1">
+            <label for="exampleInputPassword1" class="form-label text">
+              <span style="transition-delay: 0.1s;">p</span><span style="transition-delay: 0.2s;">a</span><span style="transition-delay: 0.3s;">s</span><span style="transition-delay: 0.4s;">s</span><span style="transition-delay: 0.5s;">w</span><span style="transition-delay: 0.6s;">o</span><span style="transition-delay: 0.7s;">r</span><span style="transition-delay: 0.8s;">d</span>
+
+            </label>
+           
+        </div>
+
+        <button type="button " class="btn btn-dark btn-md rounded mt-2 mb-3    " style="width: 100%;">Login </button>
+
+        <p class="fs-4">D'not have an Account? <span class="text-dark">Register</span>  </p>
+    </div>
+    </div>
+</body>
+
+</html>

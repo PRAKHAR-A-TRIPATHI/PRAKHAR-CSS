@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* width: 100vw; */
+        }
+        .main{
+            background-color: white;
+            height: 30%;
+            width: 30%;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .line{ 
+           height: 10px;
+           width: 100%;
+           background-color: black;
+           margin: 2.5rem 0;
+           transition: 0.2s;
+        } 
+        .main:hover{
+            background-color: aqua;
+        }
+        .main:hover .l1{
+            transform: translate(0,45px) rotate(25deg);
+        }
+        
+        .main:hover .l2{
+            transform: translate(0,0) rotate(-25deg);
+        }
+        
+        .main:hover .l3{
+            transform: translate(0,-50px) rotate(-25deg);    
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+     <div class="line l1"></div>
+     <div class="line l2"></div>
+     <div class="line l3"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2</title>
+    <style>
+        .text{
+            position: relative;
+        }
+        .text span{
+            position: relative;
+            font-size: 2em;
+            color: red;
+            display: inline-block;
+            animation: animate 2s ease-in-out infinite;
+            animation-delay: calc(0.1s*var(---i));
+            /* animation-play-state: paused; */
+        }
+        @keyframes animate{
+            0%,40%,100%{
+               transform: translateY(0);
+            }
+            20%{
+               transform: translateY(-50px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <span style="---i:1;">p</span>
+        <span style="---i:2;">p</span>
+        <span style="---i:3;">p</span>
+        <span style="---i:4;">p</span>
+        <span style="---i:5;">p</span>
+        <span style="---i:6;">p</span>
+        <span style="---i:7;">p</span>
+        <span style="---i:8;">p</span>
+        <span style="---i:9;">p</span>
+        <span style="---i:10;">p</span>
+        <span style="---i:11;">p</span>
+    </div>
+</body>
+</html>
